@@ -1,0 +1,24 @@
+need to remove Hunta extra and below for the time being
+
+        <View
+            style={{
+            flex: 1,
+            padding: SIZES.medium
+            }}
+        >
+            <Hunt
+            
+            />
+
+            <HuntExtra
+
+            />
+
+            <Map
+
+            />
+
+            <Start 
+
+            />
+        </View>

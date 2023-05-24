@@ -8,14 +8,18 @@ const COLORS = {
   };
   
   const FONT = {
-    regular: "Manrope-Medium",
-    medium: "Manrope-Bold",
-    bold: "Manrope-ExtraBold",
+    regular: "ManropeMedium",
+    medium: "ManropeBold",
+    bold: "ManropeExtraBold",
   };
   
   const SIZES = {
+    xxxxSmall: 4,
+    xxxSmall: 6,
+    xxSmall: 8,
     xSmall: 10,
     small: 12,
+    smedium: 14,
     medium: 16,
     large: 20,
     xLarge: 24,

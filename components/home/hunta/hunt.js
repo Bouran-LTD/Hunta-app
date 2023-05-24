@@ -1,14 +1,16 @@
 import React from "react";
 import { useRouter } from "expo-router";
 import { View, Text, Image } from "react-native";
-import { COLORS, icons, images, SIZES} from "../constants";
+
 import styles from "./hunt.styles";
+import { COLORS, icons, images, SIZES} from "../../../constants";
+
 
 const Hunt = () => {
     const router = useRouter();
 
     return (
-        <View style={styles.Icon}>
+        <View style={styles.icon}>
             <Image source={icons.treeBlue}></Image>          
         </View>,
         <View style={styles.title}>

@@ -1,8 +1,10 @@
 import { SafeAreaView, View, Text, Button, Image } from "react-native";
 import { Link, Stack, useRouter } from "expo-router"
 import { COLORS, icons, images, SIZES} from "../constants"
+import Hunt from "../components/home/hunta/hunt"
+import StartBtn from "../components/home/start/startBtn"
 
-export default function Home() {
+const Home = () => {
     const router= useRouter();
 
     return (
@@ -15,34 +17,55 @@ export default function Home() {
                     headerRight: () => (
                         <Image 
                             source={images.logo} 
-                            style={{ width: 103, height: 24 }}
+                            style={{ width: 103, height: 24, }}
                         />
                     )
                 }}
             />
-        <View
+        <View name="main background blue"
             style={{
             flex: 1,
-            padding: SIZES.medium
+            padding: SIZES.xxxxSmall,
+            paddingTop: SIZES.xxxSmall,
+            paddingBottom: SIZES.xxxSmall,
+            margin: SIZES.large,
+            borderRadius: SIZES.medium,
+            backgroundColor: COLORS.secondary,
+            
             }}
         >
-            <Hunt
-            
-            />
+            <View name="top panel"
+                style={{
+                flex: 10.89,
+                padding: SIZES.large,
+                margin: SIZES.xSmall,
+                borderRadius: SIZES.medium,
+                backgroundColor: COLORS.gray,
+                }}
+            >
+                <Hunt
 
-            <HuntExtra
+                />  
+            </View>
 
-            />
+            <View name = "bottom panel"
+                style={{
+                flex: 1,
+                padding: SIZES.large,
+                margin: SIZES.xSmall,
+                borderRadius: SIZES.medium,
+                backgroundColor: COLORS.gray,
+                }}
+            >
+                <StartBtn
+                
+                />
+            </View>
 
-            <Map
-
-            />
-
-            <Start 
-
-            />
         </View>
 
         </SafeAreaView>
     );
 };
+
+export default Home;
