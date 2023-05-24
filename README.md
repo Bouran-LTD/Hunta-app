@@ -1,14 +1,24 @@
-# Expo Router Example
+# Hunta Mobile App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+A Next-Generation Immersive Marketing Platform.
 
-## 🚀 How to use
+Hunta takes a combination of old concepts and new technology, forming a perfect consonance. Our tech stack is fairly complex, utilising a mixture of: 
 
-```sh
-npx create-expo-app -e with-router
-```
+AR, BLE/UWB, Blockchain technology to form a fun new experience.
 
-## 📝 Notes
+Follow along with this GitHub to watch our lead developers progress, he is the sole developer!
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+
+
+
+## Authors
+
+- [@Ozwald-eth](https://www.github.com/Ozwald-eth) Lead Developer
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at ollie@bouran.digital
+
+Help is always welcome.
+
