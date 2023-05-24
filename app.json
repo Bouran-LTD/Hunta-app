@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "Hunta-app-2",
+    "slug": "Hunta-app-2"
+  }
+}
