@@ -36,7 +36,7 @@ const Home = () => {
         >
             <View name="top panel"
                 style={{
-                flex: 10.89,
+                flex: 15,
                 padding: SIZES.large,
                 margin: SIZES.xSmall,
                 borderRadius: SIZES.medium,
@@ -47,7 +47,7 @@ const Home = () => {
 
                 />  
             </View>
-
+            
             <View name = "bottom panel"
                 style={{
                 flex: 1,
