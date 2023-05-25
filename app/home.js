@@ -4,6 +4,7 @@ import { COLORS, icons, images, SIZES} from "../constants"
 import Hunt from "../components/home/hunta/hunt"
 import StartBtn from "../components/home/start/startBtn"
 import HuntExtra from "../components/home/huntExtra/huntExtra";
+import Map from "../components/home/map/map"
 
 const Home = () => {
     const router= useRouter();
@@ -50,6 +51,10 @@ const Home = () => {
                 />  
 
                 <HuntExtra
+                
+                />
+
+                <Map
                 
                 />
             </View>

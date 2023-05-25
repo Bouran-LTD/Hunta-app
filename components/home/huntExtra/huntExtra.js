@@ -17,9 +17,9 @@ const HuntExtra = () => {
                 <Image style={styles.icon} source={icons.pinBlue} />
                 <Text style={styles.subTitle}>Start: The Triangle {'\n'} Finish: The Pier {'\n'} Distance: 1 mile</Text>
             </View>
-            <View style={styles.textContainer}>
+            <View style={styles.textContainer1}>
                 <Image style={styles.icon} source={icons.starBlue} />
-                <Text style={styles.subTitle}>AR stamps: Collect 6{'\n'}Reward: Gift card{'\n'}Lucky Dip from £5-£100</Text>
+                <Text style={styles.subTitle}>AR stamps: Collect 6{'\n'}Reward: Gift card{'\n'}Lucky Dips from £5-£100</Text>
             </View>
         </View>
     );

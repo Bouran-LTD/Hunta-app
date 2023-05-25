@@ -20,6 +20,11 @@ const styles = StyleSheet.create({
       flexDirection: "row",
       marginBottom: SIZES.xxxxLarge,
     },
+    textContainer1: {
+      alignItems: "center",
+      flexDirection: "row",
+      marginBottom: SIZES.large,
+    },
     subTitle: {
       fontSize: SIZES.small,
       fontFamily: FONT.regular,
