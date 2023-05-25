@@ -3,6 +3,7 @@ import { Link, Stack, useRouter } from "expo-router"
 import { COLORS, icons, images, SIZES} from "../constants"
 import Hunt from "../components/home/hunta/hunt"
 import StartBtn from "../components/home/start/startBtn"
+import HuntExtra from "../components/home/huntExtra/huntExtra";
 
 const Home = () => {
     const router= useRouter();
@@ -29,6 +30,7 @@ const Home = () => {
             paddingTop: SIZES.xxxSmall,
             paddingBottom: SIZES.xxxSmall,
             margin: SIZES.large,
+            marginTop: SIZES.medium,
             borderRadius: SIZES.medium,
             backgroundColor: COLORS.secondary,
             
@@ -46,6 +48,10 @@ const Home = () => {
                 <Hunt
 
                 />  
+
+                <HuntExtra
+                
+                />
             </View>
             
             <View name = "bottom panel"

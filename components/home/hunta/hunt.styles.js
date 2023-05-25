@@ -6,13 +6,18 @@ const { width, height } = Dimensions.get('window');
 
 const styles = StyleSheet.create({
     iconContainer: {
-      marginTop: SIZES.xxxSmall,
+      marginTop: SIZES.xxxxSmall,
       alignItems: 'center',
+      marginBottom: SIZES.small,
     },
     icon: {
       resizeMode: 'contain',
-      height: height * 0.08,
+      height: height * 0.07,
       width: width * 0.2, // This will ensure the image fits within the specified dimensions
+    },
+    textContainer: {
+      alignItems: "center",
+      marginBottom: SIZES.xxSmall,
     },
     title: {
       fontSize: SIZES.large,
@@ -23,6 +28,7 @@ const styles = StyleSheet.create({
       fontSize: SIZES.smedium,
       fontFamily: FONT.regular,
       color: COLORS.secondary,
+      textAlign: "center",
     },
 });
 

@@ -24,6 +24,8 @@ const COLORS = {
     large: 20,
     xLarge: 24,
     xxLarge: 32,
+    xxxLarge: 36,
+    xxxxLarge: 40,
   };
   
   const SHADOWS = {

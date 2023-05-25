@@ -15,10 +15,10 @@ const Hunt = () => {
             <View style={styles.iconContainer}>
                 <Image style={styles.icon} source={icons.treeBlue} />
             </View>
-            <View>
+            <View style={styles.textContainer}>
                 <Text style={styles.title}>Christmas Wonderland</Text>
             </View>
-            <View>
+            <View style={styles.textContainer}>
                 <Text style={styles.subTitle}>Feel the wonder as you hunt for festive themed AR stamps around Bournemouth town centre.</Text>
             </View>
         </View>
