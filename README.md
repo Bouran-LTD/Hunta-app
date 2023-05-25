@@ -6,7 +6,7 @@ Hunta takes a combination of old concepts and new technology, forming a perfect 
 
 AR, BLE/UWB, Blockchain technology to form a fun new experience.
 
-Follow along with this GitHub to watch our lead developers progress, he is the sole developer!
+Follow along with this GitHub to watch our lead developers progress!
 
 
 
