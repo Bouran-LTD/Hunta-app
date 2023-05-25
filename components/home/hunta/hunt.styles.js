@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
     icon: {
       resizeMode: 'contain',
-      height: height * 0.1,
+      height: height * 0.08,
       width: width * 0.2, // This will ensure the image fits within the specified dimensions
     },
     title: {
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
       color: COLORS.secondary,
     },
     subTitle: {
-      fontSize: SIZES.medium,
+      fontSize: SIZES.smedium,
       fontFamily: FONT.regular,
       color: COLORS.secondary,
     },
