@@ -26,7 +26,7 @@ const Home = () => {
             />
         <View name="main background blue"
             style={{
-            flex: 1,
+            flex: 20,
             padding: SIZES.xxxxSmall,
             paddingTop: SIZES.xxxSmall,
             paddingBottom: SIZES.xxxSmall,
@@ -73,6 +73,13 @@ const Home = () => {
                 />
             </View>
 
+        </View>
+
+        <View style={{
+            flex: 1,
+        }}>
+
+            <Text>Navigation</Text>
         </View>
 
         </SafeAreaView>

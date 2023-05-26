@@ -4,11 +4,11 @@ import { COLORS, FONT, SIZES } from "../../../constants/index";
 
 const styles = StyleSheet.create ({
     pressable: {
-        marginTop: SIZES.medium,
+        marginTop: SIZES.small,
         flex: 4,
-        margin: SIZES.xSmall,
-        borderRadius: SIZES.medium,
         justifyContent: "center",
+        borderRadius: SIZES.smedium,
+        overflow: "hidden",
     },
     text: {
         fontSize: SIZES.large,
@@ -21,7 +21,6 @@ const styles = StyleSheet.create ({
         flex: 1,
         resizeMode: 'cover',
         justifyContent: 'center',
-        borderRadius: SIZES.medium,
         padding: SIZES.large,
       },
     view: {
