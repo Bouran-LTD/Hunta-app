@@ -1,5 +1,7 @@
 import { SafeAreaView, View, Text, Button, Image } from "react-native";
 import { Link, Stack, useRouter } from "expo-router"
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
 import { COLORS, icons, images, SIZES} from "../constants"
 import Hunt from "../components/home/hunta/hunt"
 import StartBtn from "../components/home/start/startBtn"

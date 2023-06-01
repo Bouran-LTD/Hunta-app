@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { Pressable, Images, View, Text } from "react-native";
+import { Pressable, Image, View, Text } from "react-native";
 
 import styles from "./screenNav.style";
 
@@ -10,8 +10,15 @@ const NavigationBar = () => {
     const router = useRouter();
 
     return (
-        <View style={styles.mainContainer}>
-            <Text>Hey Navigator</Text>
+        <View style={styles.backgroundContainer}>
+            <View style={styles.mainContainer}>
+                <Pressable>
+                <Image style={styles.icon} source={icons.home} />
+                </Pressable>
+                <Pressable>
+                <Image style={styles.icon} source={icons.profileOutline} />
+                </Pressable>
+            </View>
         </View>
     );
 };
