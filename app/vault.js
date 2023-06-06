@@ -3,7 +3,7 @@ import { Link, Stack, useRouter } from "expo-router";
 import { COLORS, icons, images, SIZES } from "../constants";
 import { ScrollView } from "react-native-gesture-handler";
 
-export default function Vault() {
+const Vault = () => {
   const router = useRouter();
 
   return (
@@ -22,4 +22,6 @@ export default function Vault() {
       <ScrollView showsVerticalScrollIndicator={false}></ScrollView>
     </SafeAreaView>
   );
-}
+};
+
+export default Vault;

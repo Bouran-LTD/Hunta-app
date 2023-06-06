@@ -17,7 +17,7 @@ const Home = () => {
       <Stack.Screen
         options={{
           headerStyle: { backgroundColor: COLORS.primary },
-          headerTitle: null,
+          headerTitle: "",
           headerShadowVisible: false,
           headerRight: () => (
             <Image source={images.logo} style={{ width: 103, height: 24 }} />
@@ -48,15 +48,10 @@ const Home = () => {
             backgroundColor: COLORS.gray,
           }}
         >
-          //Basic info about the Hunt and route
           <Hunt />
-          //Extra details about the Hunts
           <HuntExtra />
-          //See Route map buttton
           <Map />
         </View>
-        //Start button that activates Unity //Need to connect to a new page and
-        integrate unity into such page
         <View
           name="bottom panel"
           style={{
@@ -70,8 +65,6 @@ const Home = () => {
           <StartBtn />
         </View>
       </View>
-      //Navigation bar at bottom of the screen //Need to move to the layout for
-      proper effeciencies
       <View style={{ flex: 1 }}>
         <NavigationBar />
       </View>

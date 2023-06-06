@@ -1,5 +1,9 @@
 import { Stack } from "expo-router";
 import { useFonts } from "expo-font";
+import { COLORS, FONT } from "../constants/theme";
+
+import Home from "../app/home";
+import Vault from "../app/vault";
 // import * as SplashScreen from "expo-splash-screen";
 
 // SplashScreen.preventAutoHideAsync();
@@ -21,9 +25,21 @@ const Layout = () => {
   }
 
   return (
-    <Stack initialRouteName="home">
-      <Stack.Screen name="home" />
-    </Stack>
+    <Stack.Navigator
+      initialRouteName="home"
+      screenOptions={{
+        headerShown: false,
+        headerStyle: { backgroundColor: COLORS.primary },
+        headerTitle: "",
+        headerShadowVisible: false,
+        headerRight: () => (
+          <Image source={images.logo} style={{ width: 103, height: 24 }} />
+        ),
+      }}
+    >
+      <Stack.Screen name="home" component={Home} />
+      <Stack.Screen name="vault" component={Vault} />
+    </Stack.Navigator>
   );
 };
 
