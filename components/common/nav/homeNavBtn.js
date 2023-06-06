@@ -1,26 +1,25 @@
 import React from "react";
-import { useRouter } from "expo-router";
-import { Pressable, Image, View, Text } from "react-native";
+import { View, Text, Pressable, Image } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 import styles from "./screenNav.style";
-
-import { COLORS, FONTS, SIZES, icons } from "../../../constants";
+import { icons } from "../../../constants";
 
 const NavigationBar = () => {
-    const router = useRouter();
+  const navigation = useNavigation();
 
-    return (
-        <View style={styles.backgroundContainer}>
-            <View style={styles.mainContainer}>
-                <Pressable>
-                <Image style={styles.icon} source={icons.home} />
-                </Pressable>
-                <Pressable>
-                <Image style={styles.icon} source={icons.profileOutline} />
-                </Pressable>
-            </View>
-        </View>
-    );
+  return (
+    <View style={styles.backgroundContainer}>
+      <View style={styles.mainContainer}>
+        <Pressable onPress={() => navigation.navigate("home")}>
+          <Image style={styles.icon} source={icons.home} />
+        </Pressable>
+        <Pressable onPress={() => navigation.navigate("vault")}>
+          <Image style={styles.icon} source={icons.profileOutline} />
+        </Pressable>
+      </View>
+    </View>
+  );
 };
 
-export default NavigationBar
+export default NavigationBar;

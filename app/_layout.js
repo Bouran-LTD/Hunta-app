@@ -25,21 +25,23 @@ const Layout = () => {
   }
 
   return (
-    <Stack.Navigator
-      initialRouteName="home"
-      screenOptions={{
-        headerShown: false,
-        headerStyle: { backgroundColor: COLORS.primary },
-        headerTitle: "",
-        headerShadowVisible: false,
-        headerRight: () => (
-          <Image source={images.logo} style={{ width: 103, height: 24 }} />
-        ),
-      }}
-    >
-      <Stack.Screen name="home" component={Home} />
-      <Stack.Screen name="vault" component={Vault} />
-    </Stack.Navigator>
+    <Stack>
+      <Stack.Navigator
+        initialRouteName="home"
+        screenOptions={{
+          headerShown: false,
+          headerStyle: { backgroundColor: COLORS.primary },
+          headerTitle: "",
+          headerShadowVisible: false,
+          headerRight: () => (
+            <Image source={images.logo} style={{ width: 103, height: 24 }} />
+          ),
+        }}
+      >
+        <Stack.Screen name="home" component={Home} />
+        <Stack.Screen name="vault" component={Vault} />
+      </Stack.Navigator>
+    </Stack>
   );
 };
 
