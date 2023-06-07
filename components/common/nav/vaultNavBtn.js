@@ -12,10 +12,10 @@ const VaultNavBar = () => {
     <View style={styles.backgroundContainer}>
       <View style={styles.mainContainer}>
         <Pressable onPress={() => navigation.navigate("home")}>
-          <Image style={styles.icon} source={icons.home} />
+          <Image style={styles.icon} source={icons.homeOutline} />
         </Pressable>
         <Pressable onPress={() => navigation.navigate("vault")}>
-          <Image style={styles.icon} source={icons.profileOutline} />
+          <Image style={styles.icon} source={icons.profile} />
         </Pressable>
       </View>
     </View>

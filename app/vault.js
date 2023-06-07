@@ -17,10 +17,34 @@ const Vault = () => {
           headerRight: () => (
             <Image source={images.logo} style={{ width: 103, height: 24 }} />
           ),
+          headerLeft: () => "",
         }}
       />
-
-      <ScrollView showsVerticalScrollIndicator={false}></ScrollView>
+      <View
+        name="main background blue"
+        style={{
+          flex: 20,
+          padding: SIZES.xxxxSmall,
+          paddingTop: SIZES.xxxSmall,
+          paddingBottom: SIZES.xxxSmall,
+          margin: SIZES.large,
+          marginTop: SIZES.medium,
+          marginBottom: SIZES.xSmall,
+          borderRadius: SIZES.medium,
+          backgroundColor: COLORS.secondary,
+        }}
+      >
+        <View
+          name="top panel"
+          style={{
+            flex: 15,
+            padding: SIZES.large,
+            margin: SIZES.xSmall,
+            borderRadius: SIZES.medium,
+            backgroundColor: COLORS.gray,
+          }}
+        ></View>
+      </View>
 
       <View style={{ flex: 1 }}>
         <VaultNavBar />
