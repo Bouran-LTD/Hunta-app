@@ -10,18 +10,10 @@ const Username = () => {
   const router = useRouter();
 
   return (
-    <View>
-      <View style={styles.iconContainer}>
-        <Image style={styles.icon} source={icons.treeBlue} />
-      </View>
+    <View style={styles.mainContainer}>
+      <Text style={styles.subTitle}>Ozwald#2006</Text>
       <View style={styles.textContainer}>
-        <Text style={styles.title}>Christmas Wonderland</Text>
-      </View>
-      <View style={styles.textContainer}>
-        <Text style={styles.subTitle}>
-          Feel the wonder as you hunt for festive themed AR stamps around
-          Bournemouth town centre.
-        </Text>
+        <Image style={styles.icon} source={icons.blip} />
       </View>
     </View>
   );
