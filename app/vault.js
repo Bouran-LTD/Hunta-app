@@ -2,7 +2,9 @@ import { SafeAreaView, View, Text, Button, Image } from "react-native";
 import { Link, Stack, useRouter } from "expo-router";
 import { COLORS, icons, images, SIZES } from "../constants";
 import { ScrollView } from "react-native-gesture-handler";
+
 import VaultNavBar from "../components/common/nav/vaultNavBtn";
+import Username from "../components/vault/username";
 
 const Vault = () => {
   const router = useRouter();
@@ -43,7 +45,9 @@ const Vault = () => {
             borderRadius: SIZES.medium,
             backgroundColor: COLORS.gray,
           }}
-        ></View>
+        >
+          <Username />
+        </View>
       </View>
 
       <View style={{ flex: 1 }}>
