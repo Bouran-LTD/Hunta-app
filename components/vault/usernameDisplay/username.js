@@ -4,7 +4,7 @@ import { View, Text, Image } from "react-native";
 
 import styles from "./usename.styles";
 
-import { COLORS, icons, images, SIZES } from "../../constants/index";
+import { COLORS, icons, images, SIZES } from "../../../constants/index";
 
 const Username = () => {
   const router = useRouter();

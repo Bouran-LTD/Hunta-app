@@ -4,7 +4,7 @@ import { COLORS, icons, images, SIZES } from "../constants";
 import { ScrollView } from "react-native-gesture-handler";
 
 import VaultNavBar from "../components/common/nav/vaultNavBtn";
-import Username from "../components/vault/username";
+import Username from "../components/vault/usernameDisplay/username";
 
 const Vault = () => {
   const router = useRouter();
