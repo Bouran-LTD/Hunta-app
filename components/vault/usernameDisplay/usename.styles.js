@@ -6,27 +6,22 @@ const { width, height } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   mainContainer: {
-    marginTop: SIZES.medium,
     marginLeft: "auto",
     marginRight: "auto",
   },
   icon: {
     resizeMode: "contain",
-    height: height * 0.06,
-    width: width * 0.2, // This will ensure the image fits within the specified dimensions
+    height: height * 0.045,
+    width: width * 0.15, // This will ensure the image fits within the specified dimensions
+    marginLeft: SIZES.xxxxSmall,
   },
   textContainer: {
     alignItems: "center",
     flexDirection: "row",
-    marginBottom: SIZES.xxxxLarge,
-  },
-  textContainer1: {
-    alignItems: "center",
-    flexDirection: "row",
-    marginBottom: SIZES.large,
+    marginBottom: SIZES.xxLarge,
   },
   subTitle: {
-    fontSize: SIZES.large,
+    fontSize: SIZES.medium,
     fontFamily: FONT.medium,
     color: COLORS.secondary,
   },

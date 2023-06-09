@@ -11,8 +11,8 @@ const Username = () => {
 
   return (
     <View style={styles.mainContainer}>
-      <Text style={styles.subTitle}>Ozwald#2006</Text>
       <View style={styles.textContainer}>
+        <Text style={styles.subTitle}>Ozwald#2006</Text>
         <Image style={styles.icon} source={icons.blip} />
       </View>
     </View>

@@ -5,6 +5,7 @@ import { ScrollView } from "react-native-gesture-handler";
 
 import VaultNavBar from "../components/common/nav/vaultNavBtn";
 import Username from "../components/vault/usernameDisplay/username";
+import HuntDescriptor from "../components/vault/huntDescriptor/huntdescriptor";
 
 const Vault = () => {
   const router = useRouter();
@@ -47,6 +48,7 @@ const Vault = () => {
           }}
         >
           <Username />
+          <HuntDescriptor />
         </View>
       </View>
 
