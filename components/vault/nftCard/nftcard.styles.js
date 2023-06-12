@@ -15,19 +15,19 @@ const styles = StyleSheet.create({
   },
   images: {
     resizeMode: "fill",
-    height: height * 0.14,
-    width: width * 0.32, // This will ensure the image fits within the specified dimensions
+    height: height * 0.15,
+    width: width * 0.34, // This will ensure the image fits within the specified dimensions
     borderRadius: SIZES.medium,
   },
   cardContainer: {
-    marginRight: SIZES.smedium,
-    marginLeft: SIZES.smedium,
-    marginBottom: SIZES.smedium,
+    marginRight: SIZES.xSmall,
+    marginLeft: SIZES.xSmall,
+    marginBottom: SIZES.xSmall,
     borderRadius: SIZES.medium,
   },
   outerContainer: {
     flexDirection: column,
-    gap: SIZES.smedium,
+    gap: SIZES.xSmall,
   },
 });
 

@@ -8,6 +8,7 @@ import Username from "../components/vault/usernameDisplay/username";
 import HuntDescriptor from "../components/vault/huntDescriptor/huntdescriptor";
 import NftCard from "../components/vault/nftCard/nftcard";
 import BottomLogo from "../components/vault/bottomLogo/bottomLogo";
+import ShareComp from "../components/vault/shareComp/shareComp";
 
 const Vault = () => {
   const router = useRouter();

@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   textContainer: {
     alignItems: "center",
     flexDirection: "row",
-    marginBottom: SIZES.xxLarge,
+    marginBottom: SIZES.xLarge,
   },
   subTitle: {
     fontSize: SIZES.medium,
