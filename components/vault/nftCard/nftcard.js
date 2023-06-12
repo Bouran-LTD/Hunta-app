@@ -11,23 +11,29 @@ const NftCard = () => {
 
   return (
     <View style={styles.mainContainer}>
-      <View style={styles.cardContainer}>
-        <Image style={styles.images} source={images.wheel} />
-      </View>
-      <View style={styles.cardContainer}>
-        <Image style={styles.images} source={images.wheel} />
-      </View>
-      <View style={styles.cardContainer}>
-        <Image style={styles.images} source={images.wheel} />
-      </View>
-      <View style={styles.cardContainer}>
-        <Image style={styles.images} source={images.wheel} />
-      </View>
-      <View style={styles.cardContainer}>
-        <Image style={styles.images} source={images.wheel} />
-      </View>
-      <View style={styles.cardContainer}>
-        <Image style={styles.images} source={images.wheel} />
+      <View style={styles.secondaryContainer}>
+        <View style={styles.outerContainer}>
+          <View style={styles.cardContainer}>
+            <Image style={styles.images} source={images.blank} />
+          </View>
+          <View style={styles.cardContainer}>
+            <Image style={styles.images} source={images.blank} />
+          </View>
+          <View style={styles.cardContainer}>
+            <Image style={styles.images} source={images.blank} />
+          </View>
+        </View>
+        <View style={styles.outerContainer}>
+          <View style={styles.cardContainer}>
+            <Image style={styles.images} source={images.blank} />
+          </View>
+          <View style={styles.cardContainer}>
+            <Image style={styles.images} source={images.blank} />
+          </View>
+          <View style={styles.cardContainer}>
+            <Image style={styles.images} source={images.blank} />
+          </View>
+        </View>
       </View>
     </View>
   );

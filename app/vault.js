@@ -7,6 +7,7 @@ import VaultNavBar from "../components/common/nav/vaultNavBtn";
 import Username from "../components/vault/usernameDisplay/username";
 import HuntDescriptor from "../components/vault/huntDescriptor/huntdescriptor";
 import NftCard from "../components/vault/nftCard/nftcard";
+import BottomLogo from "../components/vault/bottomLogo/bottomLogo";
 
 const Vault = () => {
   const router = useRouter();
@@ -43,6 +44,8 @@ const Vault = () => {
           style={{
             flex: 15,
             padding: SIZES.large,
+            paddingLeft: SIZES.xLarge,
+            PaddingRight: SIZES.xLarge,
             margin: SIZES.xSmall,
             borderRadius: SIZES.medium,
             backgroundColor: COLORS.gray,
@@ -51,6 +54,7 @@ const Vault = () => {
           <Username />
           <HuntDescriptor />
           <NftCard />
+          <BottomLogo />
         </View>
       </View>
 
