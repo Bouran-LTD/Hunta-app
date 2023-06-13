@@ -4,7 +4,10 @@ import { COLORS, icons, images, SIZES } from "../constants";
 import { ScrollView } from "react-native-gesture-handler";
 
 import VaultNavBar from "../components/common/nav/vaultNavBtn";
-import ShareComp from "../components/vault/shareComp/shareComp";
+import Username from "../components/vault/usernameDisplay/username";
+import HuntDescriptor from "../components/vault/huntDescriptor/huntdescriptor";
+import NftCard from "../components/vault/nftCard/nftcard";
+import BottomLogo from "../components/vault/bottomLogo/bottomLogo";
 
 const Vault = () => {
   const router = useRouter();
@@ -41,6 +44,7 @@ const Vault = () => {
           style={{
             flex: 15,
             padding: SIZES.large,
+            paddingBottom: SIZES.medium,
             paddingLeft: SIZES.xLarge,
             PaddingRight: SIZES.xLarge,
             margin: SIZES.xSmall,
@@ -48,7 +52,10 @@ const Vault = () => {
             backgroundColor: COLORS.gray,
           }}
         >
-          <ShareComp />
+          <Username />
+          <HuntDescriptor />
+          <NftCard />
+          <BottomLogo />
         </View>
       </View>
 
