@@ -4,10 +4,6 @@ import { COLORS, icons, images, SIZES } from "../constants";
 import { ScrollView } from "react-native-gesture-handler";
 
 import VaultNavBar from "../components/common/nav/vaultNavBtn";
-import Username from "../components/vault/usernameDisplay/username";
-import HuntDescriptor from "../components/vault/huntDescriptor/huntdescriptor";
-import NftCard from "../components/vault/nftCard/nftcard";
-import BottomLogo from "../components/vault/bottomLogo/bottomLogo";
 import ShareComp from "../components/vault/shareComp/shareComp";
 
 const Vault = () => {
@@ -52,10 +48,7 @@ const Vault = () => {
             backgroundColor: COLORS.gray,
           }}
         >
-          <Username />
-          <HuntDescriptor />
-          <NftCard />
-          <BottomLogo />
+          <ShareComp />
         </View>
       </View>
 

@@ -17,10 +17,8 @@ const ShareComp = () => {
       name="top panel"
       style={{
         flex: 15,
-        padding: SIZES.large,
-        paddingLeft: SIZES.xLarge,
-        PaddingRight: SIZES.xLarge,
         margin: SIZES.xSmall,
+        marginBottom: 0,
         borderRadius: SIZES.medium,
         backgroundColor: COLORS.gray,
       }}

@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
   },
   images: {
-    resizeMode: "fill",
+    resizeMode: "contain",
     height: height * 0.15,
     width: width * 0.34, // This will ensure the image fits within the specified dimensions
     borderRadius: SIZES.medium,
