@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Pressable } from "react-native";
 
 import styles from "./usename.styles";
 
@@ -19,4 +19,5 @@ const UsernameSharable = () => {
   );
 };
 
+/*THIS DOESNT CHANGE WE JUST USE THIS FOR CAPTURE REF */
 export default UsernameSharable;

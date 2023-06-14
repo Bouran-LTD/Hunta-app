@@ -13,7 +13,9 @@ const Username = () => {
     <View style={styles.mainContainer}>
       <View style={styles.textContainer}>
         <Text style={styles.subTitle}>Ozwald#2006</Text>
-        <Image style={styles.icon} source={icons.blip} />
+        <Pressable>
+          <Image style={styles.icon} source={icons.share} />
+        </Pressable>
       </View>
     </View>
   );

@@ -2,6 +2,8 @@ import React from "react";
 import { useRouter } from "expo-router";
 import { View, Image } from "react-native";
 
+/*THIS DOESNT CHANGE WE JUST USE THIS FOR CAPTURE REF */
+
 import UsernameSharable from "./usernamesharable";
 import NftCard from "../nftCard/nftcard";
 import HuntDescriptor from "../huntDescriptor/huntdescriptor";
