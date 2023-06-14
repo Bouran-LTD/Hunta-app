@@ -7,7 +7,7 @@ import VaultNavBar from "../components/common/nav/vaultNavBtn";
 import Username from "../components/vault/usernameDisplay/username";
 import HuntDescriptor from "../components/vault/huntDescriptor/huntdescriptor";
 import NftCard from "../components/vault/nftCard/nftcard";
-import BottomLogo from "../components/vault/bottomLogo/bottomLogo";
+import BottomLogo from "../components/vault/bottomLogo/bottomlogo";
 
 const Vault = () => {
   const router = useRouter();
