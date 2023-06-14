@@ -1,24 +1,23 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Pressable } from "react-native";
 
 import styles from "./usename.styles";
 
 import { COLORS, icons, images, SIZES } from "../../../constants/index";
 
-const Username = () => {
+const UsernameSharable = () => {
   const router = useRouter();
 
   return (
     <View style={styles.mainContainer}>
       <View style={styles.textContainer}>
         <Text style={styles.subTitle}>Ozwald#2006</Text>
-        <Pressable>
-          <Image style={styles.icon} source={icons.share} />
-        </Pressable>
+        <Image style={styles.icon} source={icons.blip} />
       </View>
     </View>
   );
 };
 
-export default Username;
+/*THIS DOESNT CHANGE WE JUST USE THIS FOR CAPTURE REF */
+export default UsernameSharable;
