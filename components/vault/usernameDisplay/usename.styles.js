@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     resizeMode: "contain",
-    height: height * 0.045,
+    height: height * 0.035,
     width: width * 0.15, // This will ensure the image fits within the specified dimensions
     marginLeft: SIZES.xxxxSmall,
   },

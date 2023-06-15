@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 
 import styles from "./usename.styles";
 
@@ -13,9 +13,9 @@ const Username = () => {
     <View style={styles.mainContainer}>
       <View style={styles.textContainer}>
         <Text style={styles.subTitle}>Ozwald#2006</Text>
-        <Pressable>
+        <TouchableOpacity>
           <Image style={styles.icon} source={icons.share} />
-        </Pressable>
+        </TouchableOpacity>
       </View>
     </View>
   );
