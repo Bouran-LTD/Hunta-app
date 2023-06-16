@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Image, Touc } from "react-native";
+import { View } from "react-native";
 
 /*THIS DOESNT CHANGE WE JUST USE THIS FOR CAPTURE REF */
 
@@ -9,7 +9,7 @@ import NftCard from "../nftCard/nftcard";
 import HuntDescriptor from "../huntDescriptor/huntdescriptor";
 import BottomLogo from "../bottomLogo/bottomLogo";
 
-import { COLORS, icons, images, SIZES } from "../../../constants/index";
+import { COLORS, SIZES } from "../../../constants/index";
 
 const SharedComp = () => {
   const router = useRouter();
