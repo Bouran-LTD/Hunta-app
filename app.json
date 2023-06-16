@@ -5,6 +5,12 @@
       "bundler": "metro"
     },
     "name": "Hunta-app-2",
-    "slug": "Hunta-app-2"
+    "slug": "Hunta-app-2",
+    "ios": {
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Need access to save this image",
+        "NSPhotoLibraryAddUsageDescription": "Need access to save this image and future"
+      }
+    }
   }
 }

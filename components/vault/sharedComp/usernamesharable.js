@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "expo-router";
 import { View, Text, Image, Pressable } from "react-native";
 
-import styles from "./usename.styles";
+import styles from "./usernamesharable.styles";
 
 import { COLORS, icons, images, SIZES } from "../../../constants/index";
 
