@@ -15,7 +15,7 @@ const Loader = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       navigation.navigate("welcome"); // Replace "Welcome" with the actual name of your welcome screen component
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(timeout);
   }, []);
