@@ -2,7 +2,7 @@ import {
   View,
   Text,
   SafeAreaView,
-  TouchableOpacity,
+  Pressable,
   ImageBackground,
   Image,
 } from "react-native";
@@ -12,6 +12,7 @@ import { useNavigation } from "@react-navigation/native";
 import { images, COLORS, SIZES } from "../constants";
 import Splash from "../assets/splash.png";
 import CardSplash from "../components/splash/card/cardSplash";
+import ButtonSplash from "../components/splash/button/buttonSplash";
 
 const Welcome = () => {
   const router = useRouter();
@@ -43,14 +44,10 @@ const Welcome = () => {
           }}
         />
         <CardSplash style={{ flex: 5 }} />
-        <TouchableOpacity style={{ color: COLORS.tertiary, flex: 1 }}>
-          <Text>NEXT</Text>
-        </TouchableOpacity>
+        <ButtonSplash style={{ flex: 1 }} />
       </ImageBackground>
     </View>
   );
 };
 
 export default Welcome;
-
-// add in components next //

@@ -7,8 +7,8 @@ const { width, height } = Dimensions.get("window");
 const styles = StyleSheet.create({
   mainContainer: {
     alignItems: "center",
-    flex: 1.5,
-    backgroundColor: COLORS.primary,
+    flex: 1.7,
+    backgroundColor: COLORS.gray,
     marginLeft: SIZES.xxxxLarge,
     marginRight: SIZES.xxxLarge,
     borderRadius: SIZES.xSmall,
