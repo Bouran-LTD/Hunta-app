@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Form } from "react-native";
 
 import styles from "./cardSplashCRT.styles";
 
@@ -11,13 +11,10 @@ const CardSplashCRT = () => {
 
   return (
     <View style={styles.mainContainer}>
-      <Text style={styles.head}>How it works</Text>
+      <Text style={styles.head}>Sign up</Text>
       <Text style={styles.text}>
         Enter a username and email to start playing
       </Text>
-      <Text style={styles.text}>Visit each pin to collect an AR stamp</Text>
-      <Text style={styles.text1}>Find all the stamps to collect a reward</Text>
-      <Image style={styles.icon} source={icons.starBlue}></Image>
     </View>
   );
 };

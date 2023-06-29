@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
     fontFamily: FONT.regular,
     color: COLORS.secondary,
     textAlign: "center",
-    paddingLeft: SIZES.xxLarge,
-    paddingRight: SIZES.xxLarge,
+    paddingLeft: SIZES.xLarge,
+    paddingRight: SIZES.xLarge,
     paddingBottom: SIZES.smedium,
   },
   text1: {

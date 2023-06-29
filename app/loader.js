@@ -8,7 +8,7 @@ import Splash from "../assets/splash.png";
 import Welcome from "./welcome.js";
 
 const Loader = () => {
-  const router = useRouter();
+  const navigation = useNavigation();
 
   useEffect(() => {
     const timeout = setTimeout(() => {
