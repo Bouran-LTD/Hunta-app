@@ -6,6 +6,7 @@ import Home from "../app/home";
 import Vault from "../app/vault";
 import Loader from "../app/loader";
 import Welcome from "../app/welcome";
+import How from "../app/how";
 // import * as SplashScreen from "expo-splash-screen";
 
 // SplashScreen.preventAutoHideAsync();
@@ -42,6 +43,7 @@ const Layout = () => {
       >
         <Stack.Screen name="loader" component={Loader} />
         <Stack.Screen name="welcome" component={Welcome} />
+        <Stack.Screen name="how" component={How} />
         <Stack.Screen name="home" component={Home} />
         <Stack.Screen name="vault" component={Vault} />
       </Stack.Navigator>
