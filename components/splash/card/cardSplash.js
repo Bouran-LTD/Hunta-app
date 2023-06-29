@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "expo-router";
-import { View, Image } from "react-native";
+import { View, Text, Image } from "react-native";
 
 import styles from "./cardSplash.styles";
 
@@ -11,9 +11,12 @@ const CardSplash = () => {
 
   return (
     <View style={styles.mainContainer}>
-      <View style={styles.secondaryContainer}>
-        <View style={styles.outerContainer}></View>
-      </View>
+      <Text style={styles.head}>Welcome to Hunta</Text>
+      <Text style={styles.text}>
+        Real world treasure hunts with Augmented Reality
+      </Text>
+      <Text style={styles.text1}>Complete a hunt to earn a reward!</Text>
+      <Image style={styles.icon} source={icons.pinBlue}></Image>
     </View>
   );
 };
