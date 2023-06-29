@@ -11,8 +11,8 @@ import { useNavigation } from "@react-navigation/native";
 
 import { images, COLORS, SIZES } from "../constants";
 import Splash from "../assets/splash.png";
-import CardSplashCRT from "../components/splash/card/cardSplash";
-import ButtonSplashCRT from "../components/splash/button/buttonSplash";
+import CardSplashCRT from "../components/create/card/cardSplashCRT";
+import ButtonSplashCRT from "../components/create/button/buttonSplashCRT";
 
 const Create = () => {
   const router = useRouter();

@@ -10,8 +10,6 @@ import Welcome from "./welcome.js";
 const Loader = () => {
   const router = useRouter();
 
-  const navigation = useNavigation();
-
   useEffect(() => {
     const timeout = setTimeout(() => {
       navigation.navigate("welcome"); // Replace "Welcome" with the actual name of your welcome screen component

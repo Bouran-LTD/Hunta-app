@@ -13,7 +13,7 @@ const CardSplashCRT = () => {
     <View style={styles.mainContainer}>
       <Text style={styles.head}>How it works</Text>
       <Text style={styles.text}>
-        Choose a trail then use the map to navigate
+        Enter a username and email to start playing
       </Text>
       <Text style={styles.text}>Visit each pin to collect an AR stamp</Text>
       <Text style={styles.text1}>Find all the stamps to collect a reward</Text>
