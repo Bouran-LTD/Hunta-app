@@ -1,5 +1,4 @@
 import React from "react";
-import { useRouter } from "expo-router";
 import { Pressable, Text, View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 

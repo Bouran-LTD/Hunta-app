@@ -11,8 +11,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import { images, COLORS, SIZES } from "../constants";
 import Splash from "../assets/splash.png";
-import CardSplashCRT from "../components/create/card/cardSplashCRT";
-import ButtonSplashCRT from "../components/create/button/buttonSplashCRT";
+import CardSplashCRT from "../components/create/card/cardSplashCRT.tsx";
 
 const Create = () => {
   const router = useRouter();
@@ -43,8 +42,7 @@ const Create = () => {
             resizeMode: "contain",
           }}
         />
-        <CardSplashCRT style={{ flex: 5 }} />
-        <ButtonSplashCRT style={{ flex: 1 }} />
+        <CardSplashCRT style={{ flex: 1 }} />
       </ImageBackground>
     </View>
   );

@@ -1,16 +1,32 @@
 {
   "expo": {
     "scheme": "acme",
-    "web": {
-      "bundler": "metro"
-    },
     "name": "Hunta-app-2",
     "slug": "Hunta-app-2",
     "ios": {
       "infoPlist": {
         "NSPhotoLibraryUsageDescription": "Need access to save this image",
         "NSPhotoLibraryAddUsageDescription": "Need access to save this image and future"
-      }
-    }
+      },
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.bouran.hunta"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.bouran.hunta"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ]
   }
 }
+

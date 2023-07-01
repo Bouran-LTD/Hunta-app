@@ -6,8 +6,11 @@ const { width, height } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   mainContainer: {
+    flex: 2.7,
+  },
+  cardContainer: {
     alignItems: "center",
-    flex: 1.7,
+    flex: 4,
     backgroundColor: COLORS.gray,
     marginLeft: SIZES.xxxxLarge,
     marginRight: SIZES.xxxLarge,
@@ -19,13 +22,7 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
     height: height * 0.08,
     width: width * 0.2,
-    marginBottom: SIZES.smedium,
-  },
-  cardContainer: {
-    marginRight: SIZES.xSmall,
-    marginLeft: SIZES.xSmall,
-    marginBottom: SIZES.xSmall,
-    borderRadius: SIZES.medium,
+    marginBottom: SIZES.large,
   },
   text: {
     fontSize: SIZES.medium,
@@ -52,6 +49,31 @@ const styles = StyleSheet.create({
     paddingBottom: SIZES.xLarge,
     paddingTop: SIZES.smedium,
   },
+  button: {
+    alignItems: "center",
+    justifyContent: "center",
+    padding: SIZES.large,
+    margin: SIZES.xSmall,
+    marginTop: 150,
+    marginBottom: SIZES.xxxxLarge,
+    marginLeft: SIZES.xxxLarge,
+    marginRight: SIZES.xxxLarge,
+    borderRadius: SIZES.medium,
+    backgroundColor: COLORS.gray,
+  },
+  textB: {
+    fontSize: SIZES.large,
+    fontFamily: FONT.medium,
+    color: COLORS.tertiary,
+  },
+  loginText: {
+    fontSize: SIZES.medium,
+    fontFamily: FONT.regular,
+    color: COLORS.secondary,
+    textAlign: "center",
+    borderColor: COLORS.secondary,
+  },
+  form: {},
 });
 
 export default styles;
