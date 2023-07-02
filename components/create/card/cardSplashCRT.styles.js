@@ -6,7 +6,7 @@ const { width, height } = Dimensions.get("window");
 
 const styles = StyleSheet.create({
   mainContainer: {
-    flex: 2.7,
+    flex: 2.5,
   },
   cardContainer: {
     alignItems: "center",
@@ -32,21 +32,13 @@ const styles = StyleSheet.create({
     paddingLeft: SIZES.xLarge,
     paddingRight: SIZES.xLarge,
     paddingBottom: SIZES.smedium,
-  },
-  text1: {
-    fontSize: SIZES.medium,
-    fontFamily: FONT.regular,
-    color: COLORS.secondary,
-    textAlign: "center",
-    paddingLeft: SIZES.xxLarge,
-    paddingRight: SIZES.xxLarge,
-    paddingBottom: SIZES.smedium,
+    marginBottom: SIZES.small,
   },
   head: {
     fontSize: SIZES.xLarge,
     fontFamily: FONT.bold,
     color: COLORS.secondary,
-    paddingBottom: SIZES.xLarge,
+    paddingBottom: SIZES.smedium,
     paddingTop: SIZES.smedium,
   },
   button: {
@@ -72,6 +64,12 @@ const styles = StyleSheet.create({
     color: COLORS.secondary,
     textAlign: "center",
     borderColor: COLORS.secondary,
+    borderWidth: 2,
+    paddingLeft: SIZES.xxxxLarge,
+    paddingRight: SIZES.xxxxLarge,
+    paddingTop: SIZES.medium,
+    paddingBottom: SIZES.medium,
+    marginBottom: SIZES.xxLarge,
   },
   form: {},
 });

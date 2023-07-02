@@ -11,8 +11,8 @@ import { useNavigation } from "@react-navigation/native";
 
 import { images, COLORS, SIZES } from "../constants";
 import Splash from "../assets/splash.png";
-import CardSplash from "../components/splash/card/cardSplash";
-import ButtonSplash from "../components/splash/button/buttonSplash";
+import CardSplashSaf from "../components/safety/card/cardSplashSaf";
+import ButtonSplashSaf from "../components/safety/button/buttonSplashSaf";
 
 const Safety = () => {
   const router = useRouter();
@@ -43,8 +43,8 @@ const Safety = () => {
             resizeMode: "contain",
           }}
         />
-        <CardSplash style={{ flex: 5 }} />
-        <ButtonSplash style={{ flex: 1 }} />
+        <CardSplashSaf style={{ flex: 5 }} />
+        <ButtonSplashSaf style={{ flex: 1 }} />
       </ImageBackground>
     </View>
   );
