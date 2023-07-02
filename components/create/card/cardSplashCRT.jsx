@@ -15,9 +15,16 @@ import {
 import styles from "./cardSplashCRT.styles";
 
 import { COLORS, icons, images, SIZES } from "../../../constants/index";
+import { FIREBASE_AUTH } from "../../../FirebaseConfig";
 
 const CardSplashCRT = () => {
   const navigation = useNavigation();
+
+  const [username, setUsername] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [loading, setLoading] = React.useState(false);
+
+  const auth = FIREBASE_AUTH;
 
   return (
     <View style={styles.mainContainer}>
@@ -30,12 +37,16 @@ const CardSplashCRT = () => {
           <TextInput
             style={styles.loginText}
             placeholder="Enter username"
+            onChangeText={(text) => setUsername(text)}
+            value="username"
           ></TextInput>
           <TextInput
             style={styles.loginText}
             placeholder="Enter email address"
             inputMode="email"
             autoCapitalize="none"
+            value="email"
+            onChangeText={(text) => setEmail(text)}
           ></TextInput>
         </View>
       </View>
