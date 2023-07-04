@@ -1,11 +1,8 @@
 import React from "react";
-import { useRouter } from "expo-router";
-import { Pressable, Text, View } from "react-native";
+import { Pressable, Text } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import styles from "./buttonSplashHow.styles";
-
-import { COLORS, FONTS, SIZES } from "../../../constants";
 
 const ButtonSplashHow = () => {
   const navigation = useNavigation();

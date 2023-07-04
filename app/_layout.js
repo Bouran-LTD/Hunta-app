@@ -1,6 +1,6 @@
 import { Stack } from "expo-router";
 import { useFonts } from "expo-font";
-import { COLORS, FONT } from "../constants/theme";
+import { COLORS } from "../constants/theme";
 
 import Home from "../app/home";
 import Vault from "../app/vault";

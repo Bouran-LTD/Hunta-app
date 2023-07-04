@@ -4,7 +4,7 @@ import { View, Image } from "react-native";
 
 import styles from "./nftcard.styles";
 
-import { COLORS, icons, images, SIZES } from "../../../constants/index";
+import { images } from "../../../constants/index";
 
 const NftCard = () => {
   const router = useRouter();
