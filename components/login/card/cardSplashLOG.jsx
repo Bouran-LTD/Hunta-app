@@ -61,9 +61,9 @@ const CardSplashLOG = () => {
             onChangeText={(text) => setEmail(text)}
           ></TextInput>
           <Text style={styles.text1}>
-            Not account yet ?
+            No account yet ?
           </Text>
-          <Button mode="text" title="Sign Up" onPress={() => navigation.navigate("create")} style={styles.text2}/>
+          <Button mode="text" title="Sign Up" color="#EDFF00" onPress={() => navigation.navigate("create")} style={styles.text2}/>
         </View>
       </View>
 

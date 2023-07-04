@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.gray,
     marginLeft: SIZES.xxxxLarge,
     marginRight: SIZES.xxxLarge,
-    marginBottom: 150,
+    marginBottom: 170,
     borderRadius: SIZES.xSmall,
     borderColor: COLORS.secondary,
     borderWidth: 5,
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     paddingRight: SIZES.xxxxLarge,
     paddingTop: SIZES.medium,
     paddingBottom: SIZES.medium,
-    marginBottom: SIZES.xxLarge,
+    marginBottom: SIZES.xLarge,
   },
   loginText2: {
     fontSize: SIZES.medium,
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     paddingLeft: SIZES.xLarge,
     paddingRight: SIZES.xLarge,
-    marginBottom: SIZES.xxxxSmall,
+    marginBottom: 0,
   },
   text2: {
     fontSize: SIZES.medium,

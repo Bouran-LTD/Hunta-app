@@ -64,7 +64,7 @@ const CardSplashCRT = () => {
           <Text style={styles.text1}>
             Already a user ?
           </Text>
-          <Button mode="text" title="Log In" onPress={() => navigation.navigate("login")} style={styles.text2}/>
+          <Button mode="text" title="Log In" color="#EDFF00" onPress={() => navigation.navigate("login")} style={styles.text2}/>
         </View>
       </View>
       <View>
