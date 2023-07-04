@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "expo-router";
 import { useNavigation } from "@react-navigation/native";
+
 import {
   View,
   Text,
@@ -11,16 +12,17 @@ import {
   Alert,
   Button,
   ActivityIndicator,
+  KeyboardAvoidingView,
 } from "react-native";
 
-import styles from "./cardSplashCRT.styles";
+import styles from "./cardSplashLOG.styles";
 
 import { COLORS, icons, images, SIZES } from "../../../constants/index";
 import { FIREBASE_AUTH } from "../../../FirebaseConfig";
 
-import {createUserWithEmailAndPassword} from "firebase/auth";
+import {signInWithEmailAndPassword} from "firebase/auth";
 
-const CardSplashCRT = () => {
+const CardSplashLOG = () => {
   const navigation = useNavigation();
 
   const [password, setPassword] = React.useState("");
@@ -29,26 +31,24 @@ const CardSplashCRT = () => {
 
   const auth = FIREBASE_AUTH;
 
-  const signUp = async () => {
+  const signIn = async () => {
     setLoading(true);
     try {
-      const response = await createUserWithEmailAndPassword(auth, email, password);
+      const response = await signInWithEmailAndPassword(auth, email, password);
       console.log(response);
       navigation.navigate("safety");
     } catch (error) {
       console.log(error);
-      alert("Error signing up " + error.message);
-      
+      alert("Error Logging in " + error.message);
     } finally {
       setLoading(false);
     }
   };
 
-
   return (
     <View style={styles.mainContainer}>
       <View style={styles.cardContainer}>
-        <Text style={styles.head}>Sign up</Text>
+        <Text style={styles.head}>Log in</Text>
         <Text style={styles.text}>
           Enter a username and email to start playing
         </Text>
@@ -68,22 +68,21 @@ const CardSplashCRT = () => {
             onChangeText={(text) => setEmail(text)}
           ></TextInput>
           <Text style={styles.text1}>
-            Already a user ?
+            Not account yet ?
           </Text>
-          <Button mode="text" title="Log In" onPress={() => navigation.navigate("login")} style={styles.text2}/>
+          <Button mode="text" title="Sign Up" onPress={() => navigation.navigate("create")} style={styles.text2}/>
         </View>
       </View>
-      <View>
+
       <View>
       { loading ? <ActivityIndicator size="large" color="#00ff00" /> 
           : <>
-          <Button title="Sign up" onPress={() => signUp()} />
+          <Button title="Log in" onPress={() => signIn()} />
 
           </>}
-      </View>
       </View>
     </View>
   );
 };
 
-export default CardSplashCRT;
+export default CardSplashLOG;

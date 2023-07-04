@@ -8,6 +8,7 @@ import Loader from "../app/loader";
 import Welcome from "../app/welcome";
 import How from "../app/how";
 import Create from "../app/create";
+import LogIn from "../app/login";
 import Safety from "../app/safety";
 // import * as SplashScreen from "expo-splash-screen";
 
@@ -47,6 +48,7 @@ const Layout = () => {
         <Stack.Screen name="welcome" component={Welcome} />
         <Stack.Screen name="how" component={How} />
         <Stack.Screen name="create" component={Create} />
+        <Stack.Screen name="login" component={LogIn} />
         <Stack.Screen name="safety" component={Safety} />
         <Stack.Screen name="home" component={Home} />
         <Stack.Screen name="vault" component={Vault} />
