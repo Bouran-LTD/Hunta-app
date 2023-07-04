@@ -1,23 +1,16 @@
 import React from "react";
-import { useRouter } from "expo-router";
 import { useNavigation } from "@react-navigation/native";
 
 import {
   View,
   Text,
-  Image,
-  Pressable,
   TextInput,
-  Keyboard,
-  Alert,
   Button,
   ActivityIndicator,
-  KeyboardAvoidingView,
 } from "react-native";
 
 import styles from "./cardSplashLOG.styles";
 
-import { COLORS, icons, images, SIZES } from "../../../constants/index";
 import { FIREBASE_AUTH } from "../../../FirebaseConfig";
 
 import {signInWithEmailAndPassword} from "firebase/auth";

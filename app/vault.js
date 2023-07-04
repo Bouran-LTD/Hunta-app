@@ -1,7 +1,6 @@
-import { SafeAreaView, View, Text, Button, Image } from "react-native";
-import { Link, Stack, useRouter } from "expo-router";
-import { COLORS, icons, images, SIZES } from "../constants";
-import { ScrollView } from "react-native-gesture-handler";
+import { SafeAreaView, View, Image } from "react-native";
+import { Stack, useRouter } from "expo-router";
+import { COLORS, images, SIZES } from "../constants";
 
 import VaultNavBar from "../components/common/nav/vaultNavBtn";
 import Username from "../components/vault/usernameDisplay/username";

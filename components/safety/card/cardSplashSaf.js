@@ -4,7 +4,7 @@ import { View, Text, Image } from "react-native";
 
 import styles from "./cardSplashSaf.styles";
 
-import { COLORS, icons, images, SIZES } from "../../../constants/index";
+import { icons } from "../../../constants/index";
 
 const CardSplashSaf = () => {
   const router = useRouter();

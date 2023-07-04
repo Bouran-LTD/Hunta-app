@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { SafeAreaView, View, Image, ImageBackground } from "react-native";
-import { Link, SplashScreen, Stack, useRouter } from "expo-router";
+import { View, Image, ImageBackground } from "react-native";
+import { Stack } from "expo-router";
 import { useNavigation } from "@react-navigation/native";
 
 import { images } from "../constants";

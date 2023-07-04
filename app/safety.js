@@ -1,15 +1,7 @@
-import {
-  View,
-  Text,
-  SafeAreaView,
-  Pressable,
-  ImageBackground,
-  Image,
-} from "react-native";
-import { Link, SplashScreen, Stack, useRouter } from "expo-router";
-import { useNavigation } from "@react-navigation/native";
+import { View, ImageBackground, Image } from "react-native";
+import { Stack, useRouter } from "expo-router";
 
-import { images, COLORS, SIZES } from "../constants";
+import { images, SIZES } from "../constants";
 import Splash from "../assets/splash.png";
 import CardSplashSaf from "../components/safety/card/cardSplashSaf";
 import ButtonSplashSaf from "../components/safety/button/buttonSplashSaf";

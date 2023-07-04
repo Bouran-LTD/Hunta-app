@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Pressable, Image } from "react-native";
+import { View, Pressable, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import styles from "./screenNav.style";

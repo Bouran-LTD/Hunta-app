@@ -4,7 +4,7 @@ import { View, Text, Image } from "react-native";
 
 import styles from "./huntdescriptor.styles";
 
-import { COLORS, icons, images, SIZES } from "../../../constants/index";
+import { icons } from "../../../constants/index";
 
 const HuntDescriptor = () => {
   const router = useRouter();
