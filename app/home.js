@@ -22,6 +22,7 @@ const Home = () => {
           headerRight: () => (
             <Image source={images.logo} style={{ width: 103, height: 24 }} />
           ),
+          headerLeft: () => "",
         }}
       />
       <View
