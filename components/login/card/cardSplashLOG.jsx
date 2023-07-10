@@ -6,6 +6,7 @@ import {
   Text,
   TextInput,
   Button,
+  Pressable,
   ActivityIndicator,
 } from "react-native";
 
@@ -68,9 +69,9 @@ const CardSplashLOG = () => {
       </View>
 
       <View>
-      { loading ? <ActivityIndicator size="large" color="#00ff00" /> 
+      { loading ? <ActivityIndicator size="large" /> 
           : <>
-          <Button title="Log in" onPress={() => signIn()} />
+          <Pressable title="Log in" onPress={() => signIn()} color="#EDFF00" />
 
           </>}
       </View>

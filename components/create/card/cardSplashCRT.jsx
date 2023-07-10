@@ -69,9 +69,9 @@ const CardSplashCRT = () => {
       </View>
       <View>
       <View>
-      { loading ? <ActivityIndicator size="large" color="#00ff00" /> 
+      { loading ? <ActivityIndicator size="large"  /> 
           : <>
-          <Button title="Sign up" onPress={() => signUp()} />
+          <Button title="Sign up" onPress={() => signUp()} color="#EDFF00"/>
 
           </>}
       </View>

@@ -10,11 +10,10 @@ const styles = StyleSheet.create({
   },
   cardContainer: {
     alignItems: "center",
-    flex: 4,
     backgroundColor: COLORS.gray,
     marginLeft: SIZES.xxxxLarge,
     marginRight: SIZES.xxxLarge,
-    marginBottom: 170,
+    marginBottom: 30,
     borderRadius: SIZES.xSmall,
     borderColor: COLORS.secondary,
     borderWidth: 5,
